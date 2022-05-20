@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bg4"
+    tools:context=".matakuliah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MATA KULIAH"
+            android:textSize="23dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="- Bahasa Inggris Profesional"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Data Warehouse dan Bisnis Inteligen Praktek"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Data Warehouse dan Bisnis Inteligen Teori"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Kewarganegaraan"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Metodologi Penelitian Praktek"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Praktek Topik Khusus"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Project 3 (Mobile) Praktek"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="- Sistem Keamanan Komputer dan Jaringan Teori"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textColor="@color/teal_700"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

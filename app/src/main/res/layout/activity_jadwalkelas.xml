@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:padding="8dp"
+    tools:context=".jadwalkelas">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="JADWAL KULIAH"
+        android:textColor="@color/teal_700"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_senin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <Button
+        android:id="@+id/btn_senin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29000002"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_selasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selasa"
+        app:layout_constraintTop_toBottomOf="@+id/btn_senin"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_rabu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rabu"
+        app:layout_constraintTop_toBottomOf="@+id/btn_selasa"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_kamis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kamis"
+        app:layout_constraintTop_toBottomOf="@+id/btn_rabu"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/btn_jumat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumat"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kamis"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

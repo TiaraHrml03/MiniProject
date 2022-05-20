@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".senin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JADWAL KULIAH"
+            android:textSize="23dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:text="TRPL 3A"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="07:30 - 10:00 : Bahasa Inggris Profesional (E201)"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:text="10:15 - 13:50 : Data Warehouse dan Bisnis Inteligen Praktek (LAB.Sistem Informasi)"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="TRPL 3B"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="07:30 - 10:00 : Data Warehouse dan Bisnis Inteligen Praktek (LAB.Pemrograman 2)"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:text="13:50 - 16:35 : Metodologi Penelitian Praktek (E208)"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+    </LinearLayout>
+
+</ScrollView>

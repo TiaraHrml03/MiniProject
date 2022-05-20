@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bg4"
+    tools:context=".Informasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/komputer"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kom"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:textSize="25dp"
+            android:textColor="@color/teal_700"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Software Engineering"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Program studi Diploma 4 Teknologi Rekayasa Perangkat Lunak (Information Technology) yang disingkat D4 TRPL merupakan salah satu program studi di bawah jurusan Teknologi Informasi Politeknik Negeri Padang. Program Studi ini merupakan Proram Studi Sarjana Terapan (S.Tr.Kom). Keahlian yang akan dimiliki bagi lulusan bidang TRPL diantaranya : Sofware Engineer, Auditor dan Analisis Sistem, Database Administrator, Data Scientist serta Perancang dan Pengembang Software khusus berbasis pariwisata. Pada tahun 2026 menjadi institusi pendidikan vokasional Terbaik Tingkat Nasional di bidang Teknologi Rekayasa Perangkat Lunak, bermartabat, dan berwawasan internasional. Menyelenggarakan pendidikan vokasional di bidang Teknologi Rekayasa Perangkat Lunak yang sesuai dengan perkembangan ilmu pengetahuan dan teknologi yang berwawasan internasional. Menyelenggarakan penelitian yang inovatif dan adaptif di bidang Teknologi Rekayasa Perangkat Lunak untuk pengembangan ilmu pengetahuan dan teknologi. Menerapkan ilmu pengetahuan dan teknologi dalam rangka memecahkan masalah dan meningkatkan taraf hidup masyarakat di bidang Teknologi Rekayasa Perangkat Lunak. Menjalin kerja sama yang produktif dan berkelanjutan dengan lembaga pendidikan, pemerintahan, dan dunia usaha ditingkat nasional dan Internasional di bidang Teknologi Rekayasa Perangkat Lunak"
+            android:textColor="@color/teal_700"
+            android:textSize="17dp" />
+    </ScrollView>
+
+</RelativeLayout>

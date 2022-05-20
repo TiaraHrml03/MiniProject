@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bg4"
+    tools:context=".daftardosen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAFTAR DOSEN"
+            android:textSize="23dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:text="Alde Alanda,S.Kom.,MT"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="198808252015041002"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Dwiny Meidelfi,S.Kom.,M.Cs"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="198605092014042001"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Humaira,ST.,MT"
+            android:textColor="@color/teal_700"
+            android:textSize="23dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="198103192006042002"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Ikhsan Yusda Prima Putra,SH.,LLM"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="197510012006041002"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Nasiruddin"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="198103192006042002"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Ir.Rahmat Hidayat,ST.,M.Si.IT"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="197804152000121002"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Wahyono,Ph.D"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="198103192006042002"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Witri Handayani,SS.,M.Pd"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="198112302010122004"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Yohannes Telambanau,S.Hum.,M.Pd"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="197808062009121001"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Yulhernawati,S.Kom.,MT"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="197607192008012017"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Zhi-Hao Wang"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="23dp"
+            android:textColor="@color/teal_700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="198103192006042002"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/teal_700"/>
+
+    </LinearLayout>
+
+</ScrollView>
